@@ -21,7 +21,7 @@ let array = [
     /*{
         picture: "url('pictures/3SzaboEvi.jpg')",
         title: "Évici & Szabó",
-        hint: "Manhattan",
+        hint: "Évici és Szabó",
         descr: "Valamelyik karácsony"
     },
     {
