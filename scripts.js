@@ -6,19 +6,19 @@ let array = [
         hint: "Chateau de Chambord",
         descr: "Léna méricskéli a fotós bácsit"
     }, 
-    {
+    /*{
         picture: "url('pictures/4Abi.jpg')",
         title: "Abigél",
         hint: "Tower Bridge",
         descr: "Abi téglát pakol"
-    },
+    },*/
     {
         picture: "url('pictures/2Lena.jpg')",
         title: "Léna",
         hint: "Goðafoss",
         descr: "Léna spárgázik, mint Van Damme"
     },
-    {
+    /*{
         picture: "url('pictures/3SzaboEvi.jpg')",
         title: "Évici & Szabó",
         hint: "Manhattan",
@@ -41,7 +41,7 @@ let array = [
         title: "Mama",
         hint: "Stonehenge",
         descr: "Pápán Mama Zsoltival és Petrával."
-    },
+    },*/
 ];
 
 let index = 0;
