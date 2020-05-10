@@ -1,103 +1,32 @@
-.container {
-    margin: auto;
-    width: 80%;
-    height: 600px;
-    background-image: linear-gradient(263deg, rgb(140, 85, 250) 0%,rgb(200, 215, 253) 75%,rgb(143, 230, 243) 100%);    padding: 150px 50px 50px 50px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.thumbnails {
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(circle at bottom center, rgb(248, 160, 158),rgb(136, 31, 164));
     text-align: center;
-    margin: 30px 0px 0px 0px;
-    border: none;
-    position: relative;
-}
-
-a {
-    display: inline;
-    
-}
-
-.thumbnail{
-    border: 4px solid rgb(194, 189, 189);
-    
-    
-}
-
-.activethumbnail{
-    border: 6px solid #D304EC;
-   
-}
-
-.hint {
-    position: absolute;
-    /* top: -45px; */
-    /* left: 455px; */
-    border: 4px solid azure;
-    display: none;
-}
-
-.bigArea {
-    margin: auto;
-    width: 79.5%;
-    height: 453px;
-    /* background: green; */
-    display: flex;
-    justify-content: center;
-}
-
-.arrow {
-    width: 5%;
-    height: 453px;
-    flex-grow: 1;
-    background: black;
-}
-
-.pictureAndText {
-    width: 89%;
-    height: 453px;
-    flex-grow: 0;
-    flex-basis: auto;
-    /* background: red; */
-}
-
-.pictures {
-    /*object-fit : contain;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: black;
-    min-width: 100%;
-    height: 453px;
-    /* background: yellow; */
-    position: relative; 
-    
-}
-
-
-.text {
-    position: absolute;
-    left: 10px;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    background-color: black;;
-    opacity: 0.5;
-}
-
-.arrow img {
-    display: block;
-    margin: auto;
-    margin-top: 215px;
-    margin-bottom: 215px;;
-    
-}
-
-.right {
-    transform: rotate(180deg);
-}
-
-/* .thumbnail:hover {
-    border: 6px solid red;
-}
- */
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    border: 3px solid #5B136E;
+  }
+  
+  .card p {
+    font-size: 48px;
+    color: #5B136E;
+  }
+  h1 {
+      color: #5B136E
+  }
